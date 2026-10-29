@@ -1,3 +1,5 @@
+<p align="right"><b>Русский</b> · <a href="https://github.com/commeu/commeu/blob/main/README.en.md">English</a></p>
+
 <div align="center">
   <img src="banner.svg" alt="Артём — разработчик" width="100%">
 </div>
