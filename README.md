@@ -48,7 +48,7 @@
 Стелс-аркада для Яндекс Игр: лис пробирается на охраняемую территорию, освобождает питомцев и уходит от охраны до конца таймера.
 
 <p align="center">
-  <img src="assets/fox-raid/gameplay.gif" alt="Геймплей Fox Raid" width="100%">
+  <img src="assets/fox-raid/gameplay.webp" alt="Геймплей Fox Raid" width="100%">
 </p>
 
 <table>
