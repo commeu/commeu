@@ -1,6 +1,6 @@
 <p align="right"><b>ru</b> / <a href="https://github.com/commeu/commeu/blob/main/README.en.md">en</a></p>
 
-<picture><source media="(max-width: 700px)" srcset="assets/v3/hero-ru-m.svg"><img src="assets/v3/hero-ru.svg" alt="comm eu: разработка, браузерные игры, автоматизация и сети" width="100%"></picture>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/hero2-ru-m.svg"><img src="assets/v3/hero2-ru.svg" alt="comm eu: разработка, браузерные игры, автоматизация и сети" width="100%"></picture>
 
 <p align="center">
 comm eu пишет код, настраивает сети и собирает игры для браузера.<br>
@@ -8,8 +8,14 @@ comm eu пишет код, настраивает сети и собирает �
 веду команду из 7+ человек и работаю с клиентами напрямую.
 </p>
 
+<picture><source media="(max-width: 700px)" srcset="assets/v3/widgets-ru-m.svg"><img src="assets/v3/widgets-ru.svg" alt="сводка: Лисий рейд v1.19.2 готов к черновику, 33 релиза за 13 дней, 6 наборов автотестов, 2 из 6 игр готовы к релизу, команда 7+, 1,5 года в it" width="100%"></picture>
+
 <p align="center">
-<a href="#objects">объекты²</a> &nbsp;/&nbsp; <a href="#chronicle">хроника³</a> &nbsp;/&nbsp; <a href="#method">метод⁴</a> &nbsp;/&nbsp; <a href="#stack">состав⁵</a> &nbsp;/&nbsp; <a href="#signal">связь⁶</a>
+<a href="#objects"><img src="assets/v3/nav-objects-ru.svg" alt="объекты" width="150"></a>
+<a href="#chronicle"><img src="assets/v3/nav-chronicle-ru.svg" alt="хроника" width="150"></a>
+<a href="#method"><img src="assets/v3/nav-method-ru.svg" alt="метод" width="150"></a>
+<a href="#stack"><img src="assets/v3/nav-stack-ru.svg" alt="состав" width="150"></a>
+<a href="#signal"><img src="assets/v3/nav-signal-ru.svg" alt="связь" width="150"></a>
 </p>
 
 <details>
@@ -141,6 +147,8 @@ tests/e2e.cjs         плейтест на playwright
 
 <a id="signal"></a>
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-signal-ru-m.svg"><img src="assets/v3/band-signal-ru.svg" alt="6 связь" width="100%"></picture>
+
+<a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/notes-ru-m.svg"><img src="assets/v3/notes-ru.svg" alt="уведомления: comm eu открыт к удалённой работе; telegram @mysoldroom. удалённо: да, офис: нет" width="100%"></picture></a>
 
 <a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/signal-ru-m.svg"><img src="assets/v3/signal-ru.svg" alt="написать в telegram @mysoldroom" width="100%"></picture></a>
 

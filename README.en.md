@@ -1,6 +1,6 @@
 <p align="right"><a href="https://github.com/commeu">ru</a> / <b>en</b></p>
 
-<picture><source media="(max-width: 700px)" srcset="assets/v3/hero-en-m.svg"><img src="assets/v3/hero-en.svg" alt="comm eu: software, browser games, automation and networks" width="100%"></picture>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/hero2-en-m.svg"><img src="assets/v3/hero2-en.svg" alt="comm eu: software, browser games, automation and networks" width="100%"></picture>
 
 <p align="center">
 comm eu writes code, sets up networks and builds games for the browser.<br>
@@ -8,8 +8,14 @@ comm eu writes code, sets up networks and builds games for the browser.<br>
 leads a team of 7+ people and works with clients directly.
 </p>
 
+<picture><source media="(max-width: 700px)" srcset="assets/v3/widgets-en-m.svg"><img src="assets/v3/widgets-en.svg" alt="summary: Fox Raid v1.19.2 ready for the draft, 33 releases in 13 days, 6 test suites, 2 of 6 games release-ready, a team of 7+, 1.5 years in it" width="100%"></picture>
+
 <p align="center">
-<a href="#objects">objects²</a> &nbsp;/&nbsp; <a href="#chronicle">chronicle³</a> &nbsp;/&nbsp; <a href="#method">method⁴</a> &nbsp;/&nbsp; <a href="#stack">composition⁵</a> &nbsp;/&nbsp; <a href="#signal">signal⁶</a>
+<a href="#objects"><img src="assets/v3/nav-objects-en.svg" alt="objects" width="150"></a>
+<a href="#chronicle"><img src="assets/v3/nav-chronicle-en.svg" alt="chronicle" width="150"></a>
+<a href="#method"><img src="assets/v3/nav-method-en.svg" alt="method" width="150"></a>
+<a href="#stack"><img src="assets/v3/nav-stack-en.svg" alt="stack" width="150"></a>
+<a href="#signal"><img src="assets/v3/nav-signal-en.svg" alt="signal" width="150"></a>
 </p>
 
 <details>
@@ -141,6 +147,8 @@ i lead a team of 7+ people and take clients from requirements to delivery myself
 
 <a id="signal"></a>
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-signal-en-m.svg"><img src="assets/v3/band-signal-en.svg" alt="6 signal" width="100%"></picture>
+
+<a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/notes-en-m.svg"><img src="assets/v3/notes-en.svg" alt="notifications: comm eu is open to remote work; telegram @mysoldroom. remote: on, office: off" width="100%"></picture></a>
 
 <a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/signal-en-m.svg"><img src="assets/v3/signal-en.svg" alt="message on telegram @mysoldroom" width="100%"></picture></a>
 
