@@ -16,15 +16,13 @@
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/group-nav-ru-m.svg"><img src="assets/v3/group-nav-ru.svg" alt="1 навигатор: под вашу роль" width="100%"></picture>
 
+<p>
 <a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-1-ru-m.svg"><img src="assets/v3/role-1-ru.svg" alt="фронтенд, веб: canvas без движков, 28 раскладок экрана, сборка в один html" width="100%"></picture></a>
-
 <a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-2-ru-m.svg"><img src="assets/v3/role-2-ru.svg" alt="геймдев: две готовые игры, ещё четыре на шаблоне, 33 релиза за 13 дней" width="100%"></picture></a>
-
 <a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-3-ru-m.svg"><img src="assets/v3/role-3-ru.svg" alt="qa, автотесты: 6 наборов тестов на node и playwright, тест до правки" width="100%"></picture></a>
-
 <a href="#infra"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-4-ru-m.svg"><img src="assets/v3/role-4-ru.svg" alt="devops, инфраструктура: сети и оборудование, автоматизация, ci в github actions" width="100%"></picture></a>
-
 <a href="#infra"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-5-ru-m.svg"><img src="assets/v3/role-5-ru.svg" alt="тимлид, менеджер: команда 7+ человек, клиенты, агенты по регламенту" width="100%"></picture></a>
+</p>
 
 <a id="objects"></a>
 

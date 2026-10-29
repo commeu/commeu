@@ -16,15 +16,13 @@
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/group-nav-en-m.svg"><img src="assets/v3/group-nav-en.svg" alt="1 navigator: for your role" width="100%"></picture>
 
+<p>
 <a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-1-en-m.svg"><img src="assets/v3/role-1-en.svg" alt="frontend, web: canvas with no engine, 28 screen layouts, one-file html build" width="100%"></picture></a>
-
 <a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-2-en-m.svg"><img src="assets/v3/role-2-en.svg" alt="game dev: two release-ready games, four more on a template, 33 releases in 13 days" width="100%"></picture></a>
-
 <a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-3-en-m.svg"><img src="assets/v3/role-3-en.svg" alt="qa, test automation: 6 suites on node and playwright, test before fix" width="100%"></picture></a>
-
 <a href="#infra"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-4-en-m.svg"><img src="assets/v3/role-4-en.svg" alt="devops, infrastructure: networks and hardware, automation, github actions ci" width="100%"></picture></a>
-
 <a href="#infra"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-5-en-m.svg"><img src="assets/v3/role-5-en.svg" alt="team lead, manager: a team of 7+, clients, agents under written rules" width="100%"></picture></a>
+</p>
 
 <a id="objects"></a>
 
