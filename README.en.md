@@ -1,12 +1,8 @@
-<p align="right"><a href="https://github.com/commeu">ru</a> / <b>en</b></p>
+<p align="right"><a href="https://github.com/commeu"><img src="assets/v3/lang-ru-off.svg" alt="ru" width="70"></a> <img src="assets/v3/lang-en-on.svg" alt="en" width="70"></p>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/hero2-en-m.svg"><img src="assets/v3/hero2-en.svg" alt="comm eu: software, browser games, automation and networks" width="100%"></picture>
 
-<p align="center">
-comm eu writes code, sets up networks and builds games for the browser.<br>
-1.5 years in it: networks and hardware, scripts, in-house software and its automation.<br>
-leads a team of 7+ people and works with clients directly.
-</p>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/intro-en-m.svg"><img src="assets/v3/intro-en.svg" alt="comm eu writes code, sets up networks and builds games for the browser. 1.5 years in it: networks and hardware, scripts, in-house software and its automation. leads a team of 7+ people and works with clients directly." width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/widgets-en-m.svg"><img src="assets/v3/widgets-en.svg" alt="summary: Fox Raid v1.19.2 ready for the draft, 33 releases in 13 days, 6 test suites, 2 of 6 games release-ready, a team of 7+, 1.5 years in it" width="100%"></picture>
 
@@ -18,140 +14,78 @@ leads a team of 7+ people and works with clients directly.
 <a href="#signal"><img src="assets/v3/nav-signal-en.svg" alt="signal" width="150"></a>
 </p>
 
-<details>
-<summary><b>navigator:</b> where to look for your role</summary>
-<br>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/group-nav-en-m.svg"><img src="assets/v3/group-nav-en.svg" alt="1 navigator: for your role" width="100%"></picture>
 
-| role | section | what you will find |
-|---|---|---|
-| frontend, web | <a href="#objects">2.1</a>, <a href="#stack">5</a> | canvas with no engine or dependencies, 28 screen layouts, one-file html build |
-| game dev | <a href="#objects">2.1</a>, <a href="#objects">2.2</a>, <a href="#chronicle">3</a> | two release-ready games, four more on a shared template, 33 releases in 13 days |
-| qa, test automation | <a href="#objects">2.1</a>, <a href="#method">4</a> | 6 test suites on node and playwright, test before fix, e2e on desktop and phone |
-| devops, infrastructure | <a href="#objects">2.3</a>, <a href="#objects">2.1</a> | networks and hardware, automation, github actions ci with artifacts |
-| team lead, manager | <a href="#objects">2.3</a>, <a href="#method">4</a>, <a href="#chronicle">3</a> | a team of 7+, client work, agent-driven development under written rules |
+<a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-1-en-m.svg"><img src="assets/v3/role-1-en.svg" alt="frontend, web: canvas with no engine, 28 screen layouts, one-file html build" width="100%"></picture></a>
 
-</details>
+<a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-2-en-m.svg"><img src="assets/v3/role-2-en.svg" alt="game dev: two release-ready games, four more on a template, 33 releases in 13 days" width="100%"></picture></a>
+
+<a href="#release"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-3-en-m.svg"><img src="assets/v3/role-3-en.svg" alt="qa, test automation: 6 suites on node and playwright, test before fix" width="100%"></picture></a>
+
+<a href="#infra"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-4-en-m.svg"><img src="assets/v3/role-4-en.svg" alt="devops, infrastructure: networks and hardware, automation, github actions ci" width="100%"></picture></a>
+
+<a href="#infra"><picture><source media="(max-width: 700px)" srcset="assets/v3/role-5-en-m.svg"><img src="assets/v3/role-5-en.svg" alt="team lead, manager: a team of 7+, clients, agents under written rules" width="100%"></picture></a>
 
 <a id="objects"></a>
+
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-objects-en-m.svg"><img src="assets/v3/band-objects-en.svg" alt="2 objects" width="100%"></picture>
+
+<a id="release"></a>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/group-release-en-m.svg"><img src="assets/v3/group-release-en.svg" alt="2.1 games, release-ready" width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/fox-raid-en-m.svg"><img src="assets/v3/fox-raid-en.svg" alt="Fox Raid: a stealth arcade game in javascript and canvas with 6 test suites" width="100%"></picture>
 
-<details>
-<summary><b>Fox Raid:</b> tests, platform, project layout</summary>
-<br>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/group-spec-en-m.svg"><img src="assets/v3/group-spec-en.svg" alt="2.1.1 Fox Raid: tests, platform, layout" width="100%"></picture>
 
-| test suite | what it covers |
-|---|---|
-| `npm test` | mechanics, saves, graphics quality, the first 20 contracts |
-| `test:browser` | controls, sdk scenarios, account recovery, accessibility (playwright) |
-| `codex:release` | the built html and zip: real input, reload, no test code shipped |
-| `test:local-layouts` | 28 combinations of ru/en and 7 screen sizes, large text and contrast |
-| `test:progression` | a full playthrough of every zone and the collection by an automated pilot |
-| `test:performance` | load of an active scene and a throttled cpu |
-
-**platform:** cloud saves keyed to a persistent player id, pause when minimized, rewarded ads only when the player opts in, yandex game ready and gameplay api. the sdk is mocked in tests; real devices and ads are checked in a platform draft.
-
-```
-game/      sources: core, platform, art, quality, motion
-tests/     node and playwright tests (50 files)
-scripts/   package build, media, diagnostics
-docs/      state, reports, test evidence
-media/     screenshots and before/after frames
-```
-
-</details>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/fox-spec-en-m.svg"><img src="assets/v3/fox-spec-en.svg" alt="Fox Raid test suites, platform and project layout" width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/arena-en-m.svg"><img src="assets/v3/arena-en.svg" alt="Arena Brawl: a team action game in typescript and vite" width="100%"></picture>
 
-<details>
-<summary><b>Arena Brawl:</b> build pipeline and project layout</summary>
-<br>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/group-pipe-en-m.svg"><img src="assets/v3/group-pipe-en.svg" alt="2.1.2 Arena Brawl: pipeline and layout" width="100%"></picture>
 
-every push to main runs through github actions:
+<picture><source media="(max-width: 700px)" srcset="assets/v3/arena-spec-en-m.svg"><img src="assets/v3/arena-spec-en.svg" alt="github actions pipeline: type check, build, zip, e2e playtest, artifacts; project layout" width="100%"></picture>
 
-1. typescript type check
-2. build
-3. zip for the platform
-4. e2e playtest in chromium: all 8 heroes, three modes to the end, trophy road, upgrades, saves
-5. playtest screenshots and the game archive are kept as artifacts
-
-```
-src/game/heroes.ts    8 heroes: stats, supers, passives, upgrade costs
-src/game/maps.ts      6 mirrored maps and modes
-src/game/arena.ts     combat simulation and bot ai
-src/game/progress.ts  saves, trophy road, quests
-src/render/draw.ts    arena rendering with cached map layers
-src/audio/sfx.ts      procedural sound and music
-tests/e2e.cjs         playwright playtest
-```
-
-</details>
+<a id="wip"></a>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/group-wip-en-m.svg"><img src="assets/v3/group-wip-en.svg" alt="2.2 games, in progress" width="100%"></picture>
 
-| game | genre | base |
-|---|---|---|
-| Flea Market Tycoon | tycoon | typescript, yandex sdk, e2e tests |
-| Ragdoll Playground | physics sandbox | typescript, yandex sdk, e2e tests |
-| Proving Ground | physics shooting range | typescript, yandex sdk, e2e tests |
-| Loot Heist | obby | typescript, yandex sdk, e2e tests |
+<picture><source media="(max-width: 700px)" srcset="assets/v3/wip-en-m.svg"><img src="assets/v3/wip-en.svg" alt="Flea Market Tycoon, Ragdoll Playground, Proving Ground, Loot Heist on typescript, the yandex sdk and e2e tests" width="100%"></picture>
+
+<a id="infra"></a>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/group-infra-en-m.svg"><img src="assets/v3/group-infra-en.svg" alt="2.3 infrastructure and automation" width="100%"></picture>
 
-<p>
-┌<br>
-at my current job: setting up networks and network hardware,<br>
-scripts and in-house software, automating how they run and get checked.<br>
-i lead a team of 7+ people and take clients from requirements to delivery myself.<br>
-└
-</p>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/infra-en-m.svg"><img src="assets/v3/infra-en.svg" alt="networks, scripts and software, automation, a team of 7+, clients" width="100%"></picture>
 
 <a id="chronicle"></a>
+
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-chronicle-en-m.svg"><img src="assets/v3/band-chronicle-en.svg" alt="3 chronicle" width="100%"></picture>
 
-<picture><source media="(max-width: 700px)" srcset="assets/v3/chronicle-en-m.svg"><img src="assets/v3/chronicle-en.svg" alt="33 Fox Raid releases in 13 days: october 9, 10, 12 and 21, 2026, including 15 new mechanics on october 21" width="100%"></picture>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/chronicle-en-m.svg"><img src="assets/v3/chronicle-en.svg" alt="33 Fox Raid releases in 13 days, 15 new mechanics on october 21" width="100%"></picture>
 
 <a id="method"></a>
+
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-method-en-m.svg"><img src="assets/v3/band-method-en.svg" alt="4 method" width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/method-en-m.svg"><img src="assets/v3/method-en.svg" alt="bug: test first; commit: one change; agents: written rules and tests; priority: player data, controls, readability, speed" width="100%"></picture>
 
 <a id="stack"></a>
+
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-stack-en-m.svg"><img src="assets/v3/band-stack-en.svg" alt="5 composition" width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/tag-en-m.svg"><img src="assets/v3/tag-en.svg" alt="composition: typescript, javascript, python, canvas, web audio, vite, node.js, playwright, github actions, git, networks, claude code, openai codex; learning docker, monitoring, llms and rag" width="100%"></picture>
 
-<details>
-<summary><b>index:</b> technology → where it is used</summary>
-<br>
-
-| technology | where |
-|---|---|
-| javascript | Fox Raid: the whole game, no engine |
-| typescript | Arena Brawl and the four games in progress |
-| canvas | rendering in both release-ready games |
-| web audio | procedural sound and music in Arena Brawl |
-| vite | build and dev server for Arena Brawl |
-| node.js | Fox Raid tests and build scripts |
-| python | Fox Raid platform package build |
-| playwright | e2e tests of both games on desktop and phone |
-| github actions | Arena Brawl ci: types, build, playtest, artifacts |
-| yandex sdk | cloud saves, ads, leaderboards, game ready |
-| claude code, codex | agent-driven development under written rules |
-| networking | current job: networks and network hardware |
-
-</details>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/index-en-m.svg"><img src="assets/v3/index-en.svg" alt="index: technology and where it is used" width="100%"></picture>
 
 <a id="signal"></a>
+
 <picture><source media="(max-width: 700px)" srcset="assets/v3/band-signal-en-m.svg"><img src="assets/v3/band-signal-en.svg" alt="6 signal" width="100%"></picture>
 
-<a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/notes-en-m.svg"><img src="assets/v3/notes-en.svg" alt="notifications: comm eu is open to remote work; telegram @mysoldroom. remote: on, office: off" width="100%"></picture></a>
+<a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/notes-en-m.svg"><img src="assets/v3/notes-en.svg" alt="comm eu is open to remote work; telegram @mysoldroom" width="100%"></picture></a>
 
 <a href="https://t.me/mysoldroom"><picture><source media="(max-width: 700px)" srcset="assets/v3/signal-en-m.svg"><img src="assets/v3/signal-en.svg" alt="message on telegram @mysoldroom" width="100%"></picture></a>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/footer-en-m.svg"><img src="assets/v3/footer-en.svg" alt="comm eu" width="100%"></picture>
 
-<p align="center"><sub>the game screenshots show the russian ui; both games ship in russian and english.</sub></p>
+<img src="assets/v3/note-en.svg" alt="the game screenshots show the russian ui; both games ship in russian and english." width="100%">
