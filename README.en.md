@@ -16,7 +16,7 @@ leads a team of 7+ people and works with clients directly.
 <summary><b>navigator:</b> where to look for your role</summary>
 <br>
 
-| role | start with | what you will find |
+| role | section | what you will find |
 |---|---|---|
 | frontend, web | <a href="#objects">2.1</a>, <a href="#stack">5</a> | canvas with no engine or dependencies, 28 screen layouts, one-file html build |
 | game dev | <a href="#objects">2.1</a>, <a href="#objects">2.2</a>, <a href="#chronicle">3</a> | two release-ready games, four more on a shared template, 33 releases in 13 days |
