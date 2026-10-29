@@ -1,6 +1,6 @@
 <p align="right"><a href="https://github.com/commeu"><img src="assets/v3/lang-ru-off.svg" alt="ru" width="70"></a> <img src="assets/v3/lang-en-on.svg" alt="en" width="70"></p>
 
-<picture><source media="(max-width: 700px)" srcset="assets/v3/hero2-en-m.svg"><img src="assets/v3/hero2-en.svg" alt="comm eu: software, browser games, automation and networks" width="100%"></picture>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/hero3-en-m.svg"><img src="assets/v3/hero3-en.svg" alt="comm eu: software, browser games, automation and networks" width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/intro-en-m.svg"><img src="assets/v3/intro-en.svg" alt="comm eu writes code, sets up networks and builds games for the browser. 1.5 years in it: networks and hardware, scripts, in-house software and its automation. leads a team of 7+ people and works with clients directly." width="100%"></picture>
 

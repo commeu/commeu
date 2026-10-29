@@ -1,6 +1,6 @@
 <p align="right"><img src="assets/v3/lang-ru-on.svg" alt="ru" width="70"> <a href="https://github.com/commeu/commeu/blob/main/README.en.md"><img src="assets/v3/lang-en-off.svg" alt="en" width="70"></a></p>
 
-<picture><source media="(max-width: 700px)" srcset="assets/v3/hero2-ru-m.svg"><img src="assets/v3/hero2-ru.svg" alt="comm eu: разработка, браузерные игры, автоматизация и сети" width="100%"></picture>
+<picture><source media="(max-width: 700px)" srcset="assets/v3/hero3-ru-m.svg"><img src="assets/v3/hero3-ru.svg" alt="comm eu: разработка, браузерные игры, автоматизация и сети" width="100%"></picture>
 
 <picture><source media="(max-width: 700px)" srcset="assets/v3/intro-ru-m.svg"><img src="assets/v3/intro-ru.svg" alt="comm eu пишет код, настраивает сети и собирает игры для браузера. полтора года в it: сети и оборудование, скрипты, свой софт и его автоматизация. веду команду из 7+ человек и работаю с клиентами напрямую." width="100%"></picture>
 
